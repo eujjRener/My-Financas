@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Signika+Negative:wght@700 & display=swap');
+      .letranav{
+        font-size: 1vw;
+       color:#77ffc0;
+      }
+      .letranot{
+        color: black;
+        font-size: large;
+      }
+      .pescolha{
+        font-family:'Anek Malayalam', sans-serif;
+        font-size: 20px;
+        margin-left: 20px;
+        text-decoration: none;
+        color:#c7ddd0de;
+        
+      }
+      .letra{
+        font-family:'Anek Malayalam', sans-serif;
+        font-size: 80px;
+        color: black;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: poppinsregular;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+  
+  
+
+.title{
+    font-family: 'Noto Sans', sans-serif;
+    color: #00ff88;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.box-cards{
+   display: flex;
+   
+
+}
+.card-dark-left{
+    background-color:#212529;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.card-dark-right{
+    background-color:#212529;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.card-login-v{
+    width: 50%; 
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 30px 70px ;
+     background: #2f2841;
+     border-radius: 20px;
+     box-shadow: 0px 10px 40px #00000056 ;
+     padding-top: 300px;
+ }
+
+.container2{
+display: flex;
+}
+.container>a{
+    display: inline-block;
+
+}
+.img-box{
+    margin-left: 100px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+
+}
+
+.btnopc_index{
+    font-family:'Anek Malayalam', sans-serif;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    
+    /*background: #fdfdfd;*/
+    color: #c7ddd0de;
+    font-size: 20pt;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+  position: relative;
+  margin-left: 700px;
+  
+  
+
+ 
+}
+
+.btnopc{
+    font-family:'Anek Malayalam', sans-serif;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    /*background: #fdfdfd;*/
+    color: #c7ddd0de;
+    font-size: 20pt;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+  position: relative;
+  margin-left: 0px;
+  
+
+ 
+}
+
+.logoanima{
+    color: #00ff88;
+    text-decoration: none;
+   font-family:'Anek Malayalam' ;
+   font-size: 30px;
+}
+
+
+.bottomtext{
+    font-family:'Anek Malayalam', sans-serif;
+    width: 50%;
+    border: none;
+    
+    padding: 15px;
+    /*background: #fdfdfd;*/
+    color: #c7ddd0de;
+    font-size: 15pt;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main-login{
+    width: 100vw;
+    height: 80vh;
+    background: rgb(34, 34, 34) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left-login{
+    width: 70VW;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.left-login > h1{
+    font-size: 3vw;
+    color:#77ffc0;
+}
+
+.left-login-image{
+    width: 25vw;
+    
+}
+
+.right-login{
+    width: 50w;
+    height: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.card-login{
+   width: 60%; 
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 70px ;
+    background: rgb(71, 70, 70);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056 ;
+    padding-top: 200px;
+}
+
+.card-login > h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin:0;
+}
+
+.card-login-v > h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin:0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px 0px;
+
+}
+
+.cinza{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(71, 70, 70);
+    color: #f0ffffde;
+    font-size: 10pt;
+    box-shadow: 0px 10px 40px #00000056 ;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+
+.textfield > label {
+    color:#f0ffffde;
+    margin-bottom: 5px ;
+} 
+
+.textfield > input::placeholder{
+    color: #f0ffff94;  
+}
+
+
+.btn-login{
+    width: 100%; 
+    padding: 16px 0px; 
+    margin: 25px; 
+    border: none; 
+    border-radius: 20px;
+    outline: none; 
+    text-transform: uppercase ; 
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#9ca0a0de;
+    background: #00ff88 ;
+    cursor: pointer;
+    box-shadow: 0p 10px 40px -12px #00ff8052 ;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase ;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#2b134b;
+    background: #00ff88 ;
+    cursor: pointer;
+    box-shadow: 0p 10px 40px -12px #00ff8052 ; 
+    
+}
+
+.pjuros{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(71, 70, 70);
+    color: #f0ffffde;
+    font-size: 7pt;
+    box-shadow: 0px 10px 40px #00000056 ;
+    outline: none;
+    
+}
+.pjurosresul{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(71, 70, 70);
+    color: #f0ffffde;
+    font-size: 10pt;
+    box-shadow: 0px 10px 40px #00000056 ;
+    outline: none;
+    
+}
+
+.pslide{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 25pt;
+    box-shadow: 0px 10px 40px #00000056 ;
+    outline: none;
+    
+}
+
+/*@media only sreen and (max-widht: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+
+@media only sreen and (max-widht: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+    .left-login{
+      width: 100%;
+      height: auto;  
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+    .left-login-image{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+}
